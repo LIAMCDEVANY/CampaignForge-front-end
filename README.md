@@ -16,7 +16,8 @@ https://campaignforge-back-end.onrender.com
 - JWT Authentication
 - Vite
 
-## Features
+## Features!
+
 - User authentication
 - Campaign management
 - CRUD functionality
@@ -27,3 +28,6 @@ https://campaignforge-back-end.onrender.com
 - Player management
 - Dice rolling tools
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+<img width="2550" height="1412" alt="CampaignForgeAppScreenshot" src="https://github.com/user-attachments/assets/91ae73c1-06d4-481d-a541-f0552d97aebc" />
+
