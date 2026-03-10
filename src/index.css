@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page */
+body {
+  font-family: system-ui, Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  min-height: 100vh;
+}
+
+/* Page container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin-bottom: 15px;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 10px;
+}
+
+/* Navigation bar */
+nav {
+  background: #1e293b;
+  padding: 15px 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* Forms */
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background: #1e293b;
+  color: white;
+}
+
+/* Buttons */
+button {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+/* Card style */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Danger button */
+button.danger {
+  background: #ef4444;
+  color: white;
+}
+
+button.danger:hover {
+  background: #dc2626;
+}
